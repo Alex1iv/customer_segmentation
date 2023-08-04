@@ -19,9 +19,16 @@ This project is focused on clustering of credict card holders with several unsup
 ## Data and methods
 The dataset contains information about 8950 card holders. Since each of them has 18 features, it is impossible to represent them on a plain without a transformation. It could be, for instance, a reduction of the features number. On the other hand, it is worth to start clusterizating with all features.
 
-The optimal number of clusters was identified using several techniques such as: enertia estimation (fig.1 A), and elbow methods (fig.1 B).
+The optimal number of clusters was identified using several techniques such as: enertia estimation (fig.1 A), and elbow methods (fig.1 B). The silhouette method indicates that it would be better to spread customers by 3 distinct clusters that is easy to use and understand. In contrast to the silhouette method, clustering by the distortion score and inertia do not clearly shows the optimal number of clusters.
 
-<center> <img src = "../figures/fig_1a.jpg"  alt="drawing" style="width:900px;"> </center>
+<center> <img src = "./figures/fig_1a.jpg"  alt="drawing" style="width:900px;"> </center>
+
+Two features: credit limit and Payments were chosen to represent clustering results. On the fig.3 it can be seen 3 gropups of customers by color:
+* green (on the left bottom corner) - 6209 customers with low credit limit, and payments from low to moderate.
+* orange (on the right bottom corner) - 2556 customers with moderate and high credit limits and payments
+- blue (on the right top corner) - 185 customers with large amount of payments
+
+<center> <img src = "./figures/fig_3.png"  alt="drawing" style="width:600px;"> </center>
 
 ## Project structure
 
