@@ -5,7 +5,8 @@
 
 * [Summary](README.md#Summary)  
 * [Project description](README.md#Project-description)  
-* [Data and methods](README.md#Data-and-methods)                                
+* [Data and methods](README.md#Data-and-methods)
+* [Results](README.md#Results) 
 * [Project structure](README.md#Project-structure)        
 
 ---
@@ -23,12 +24,25 @@ The optimal number of clusters was identified using several techniques such as: 
 
 <center> <img src = "./figures/fig_1a.jpg"  alt="drawing" style="width:900px;"> </center>
 
-Two features: credit limit and Payments were chosen to represent clustering results. On the fig.3 it can be seen 3 gropups of customers by color:
-* green (on the left bottom corner) - 6209 customers with low credit limit, and payments from low to moderate.
-* orange (on the right bottom corner) - 2556 customers with moderate and high credit limits and payments
-- blue (on the right top corner) - 185 customers with large amount of payments
+## Results
+Two features: credit limit and Payments were chosen to represent clustering results. On the fig.3 it can be seen 3 clusters of customers whcih were colored as follows:
+* 0 (green color, on the left bottom corner) - 6209 customers with low credit limit, and payments from low to moderate.
+* 1 (orange color, on the right bottom corner) - 2556 customers with moderate and high credit limits and payments
+- 2 (blue color on the right top corner) - 185 customers with large amount of payments
 
 <center> <img src = "./figures/fig_3.png"  alt="drawing" style="width:600px;"> </center>
+
+Customers within the largest 0th segment can be characterized by following features (by descenidg of the feature significance):
+- large purchases and big expenditures
+- borrowing cash against the card's line of credit
+- they rarely repaid borrowed sum on their credit balance
+- their 'MINIMUM_PAYMENTS' amounts are quite large of $ 677 \pm 19347$ of a currency. In case the credit card minimum payments due value is calculated as 5% from the total outstanding amount, borrowers owe some succifient amounts of money to the bank
+- most of users has a positive card balance of $ 936 \pm 19347$, and notably, the balance is updated regularly
+
+In result, the 0th segment represent the most active customers in terms of revenue generation for the bank.
+
+<center> <img src = "./figures/fig_4.png"  alt="drawing" style="width:500px;"> </center> 
+
 
 ## Project structure
 
