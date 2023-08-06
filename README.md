@@ -25,16 +25,16 @@ The optimal number of clusters was identified using several techniques such as: 
 <center> <img src = "./figures/fig_1a.jpg"  alt="drawing" style="width:900px;"> </center>
 
 ## Results
-For the bank perspective, it is worth to increase revenue from credit loans. Charges value depends of sum of purchases, as well as of other related factors. Thus two main features were chosen to represent clustering results such as credit limit and Payments. On the fig.3 it can be seen 3 clusters of customers whcih were colored as follows:
+For the bank perspective, it is worth to increase revenue from credit loans. Charges value depends of sum of purchases, as well as of other related factors. Thus two main features were chosen to represent clustering results such as credit limit and Payments. 
+
+To get best results several clustering algorythms were compared: k-means, DBSCAN, agglomerative clustering. DBSCAN, for instance did not recognized distinct clusters since the data is rather evenly distributed within the analyzed features. Unlike DBSCAN, Agglomerative Clustering as well as K-means splitted the data well. The latter method identified 3 clusters of customers  and colored them as follows (fig.3):
 * 0 (green color, on the left bottom corner) - 6209 customers with low credit limit, and payments from low to moderate.
 * 1 (orange color, on the right bottom corner) - 2556 customers with moderate and high credit limits and payments
 - 2 (blue color on the right top corner) - 185 customers with large amount of payments.
 
-
-
 <center> <img src = "./figures/fig_3.png"  alt="drawing" style="width:600px;"> </center>
 
-Clusters are imbalanced so it is not known whether customers posses of common dinstinct features within a clusters or 
+As it can be seen from the fig.3 above, clusters are imbalanced. Thus it is not known whether clusters posses of common dinstinct features  
 
 Customers within the largest 0th segment can be characterized by following features (by descenidg of the feature significance):
 - large purchases and big expenditures
