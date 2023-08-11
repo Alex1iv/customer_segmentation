@@ -71,7 +71,6 @@ customer_segmentation
 ├── models                  # models storage
 ├── notebooks               # project notebooks storage
 │   └── segmentation.ipynb
-├── project tree.ipynb
 ├── README.md
 └── utils                   # custom functions and applications
     ├── config_reader.py
