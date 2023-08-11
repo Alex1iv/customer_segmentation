@@ -56,5 +56,26 @@ In result, the 0th segment represent the most active customers in terms of reven
 
 ```Python
 
+customer_segmentation
+├── .git
+├── .gitignore
+├── config
+│   └── config.json        # configuration parameters
+├── data
+│   └── segmentation.zip   # data archive
+├── figures                # images storage
+│   ├── fig_1.png
+.....
+│   └── fig_6.png
+├── LICENSE
+├── models                  # models storage
+├── notebooks               # project notebooks storage
+│   └── segmentation.ipynb
+├── project tree.ipynb
+├── README.md
+└── utils                   # custom functions and applications
+    ├── config_reader.py
+    └──  functions.py
+    
 ```
 </details>
