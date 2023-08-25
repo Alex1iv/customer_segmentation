@@ -1,10 +1,10 @@
 {
     "//": "Set seed value",
-    "random_seed" : 42,
+    "random_state" : 42,
 
     "//": "Model folder",
-    "model_path" : "../models/",
-    "figures_path" : "../figures/",
-    "data_path" : "../data/"
+    "path_model" : "../models/",
+    "path_figures" : "../figures/",
+    "path_data" : "../data/"
     
 }
